@@ -103,18 +103,18 @@ Usage: ./bin/dbipatcher --help
 
 There is quick description of individual operations:
 
-| Operation       | Description                                                                   |
-|-----------------|-------------------------------------------------------------------------------|
-| **--find-imm**  | Searches instruction immediates for needle                                    |
-| **--find-str**  | Searches read only data for needle                                            |
-| **--find-keys** | Searches for XOR key candidates                                               |
-| **--new-en**    | Searches for english string candidates not present in dictionary              |
-| **--new-ru**    | Searches for russian string candidates not present in dictionary              |
-| **--partials**  | Searches for instruction immediate portion of type 2 strings from disctionary |
-| **--decode**    | Tries to decode string starting at given address                              |
-| **--merge**     | Merges existing language file with dictionary. Performs various checks.       |
-| **--scan**      | Used to create blueprints                                                     |
-| **--patch**     | Patches nro using language file and blueprint                                 |
+| Operation       | Description                                                                  |
+|-----------------|------------------------------------------------------------------------------|
+| **--find-imm**  | Searches instruction immediates for needle                                   |
+| **--find-str**  | Searches read only data for needle                                           |
+| **--find-keys** | Searches for XOR key candidates                                              |
+| **--new-en**    | Searches for english string candidates not present in dictionary             |
+| **--new-ru**    | Searches for russian string candidates not present in dictionary             |
+| **--partials**  | Searches for instruction immediate portion of type 2 strings from dictionary |
+| **--decode**    | Tries to decode string starting at given address                             |
+| **--merge**     | Merges existing language file with dictionary. Performs various checks.      |
+| **--scan**      | Used to create blueprints                                                    |
+| **--patch**     | Patches nro using language file and blueprint                                |
 
 Real workflow for patching theoretical new version is:
 
